@@ -1,0 +1,234 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+}
+.upper{
+    z-index: 1;
+    width:100%;
+    height:300px;
+    background: rgb(62, 6, 62);
+    border-radius:0% 0% 150% 150%/0% 0% 40% 40%;
+    /* position: absolute; */
+    top:0;
+    left:0;
+}
+.middle{
+    width:100%;
+    height:300px;
+    background: rgb(245, 219, 245);
+   border-bottom-right-radius: 30% 30%;
+   border-bottom-left-radius: 30% 30%;
+    position: relative;
+    top:10;
+    left:0;
+   margin-top: -30px;
+   display: none;
+}
+#work{
+    width: 100px;
+    height: 30px;
+    padding-top: 20px;
+    margin-left:20px;
+    color: white;
+    font-family: century Gothic;
+}
+#it{
+    font-size:30px;
+    font-family:monospace;
+    color:white;
+}
+.ifoto img{
+margin-left:-130px;
+margin-top:40px;
+}
+#word{
+    margin-left: 500px;
+    margin-top:-140px;
+    color: white;
+    font-size: 25px;
+    font-family: century Gothic;
+}
+#btn{
+    width: 120px;
+    height: 40px;
+    background:rgb(56, 237, 155);
+    border: none;
+    margin-left: 550px;
+    margin-top: 30px;
+    font-family: century Gothic;
+}
+.ifoto2{
+    margin-left: 400px;
+    margin-top: 80px;
+}
+#left{
+    margin-left: 990px;
+    color:white;
+    font-size:20px;
+    font-family: century Gothic;
+    margin-top: -40px;
+}
+.another-png{
+    float: right;
+}
+.middle-content{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+}
+.one{
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;
+}
+.two{
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;  
+}
+.three{
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;   
+}
+.circle1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid blueviolet;
+    margin-left:130px;
+    margin-top: 30px;
+}
+#num1{
+    padding-top: 3px;
+    padding-left: 8px;
+}
+#title{
+    font-size: 18px;
+    color:purple;
+    white-space: nowrap;
+    margin-left: -80px;
+    font-weight:lighter;
+}
+#card-content1{
+    /* color: blueviolet; */
+    font-size: 17px;
+    white-space: nowrap;
+    padding-left: 20px;
+    margin-left: -130px;
+    text-align: center;
+}
+.circle2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid blueviolet;
+    margin-left:130px;
+    margin-top: 30px;
+}
+#num2{
+    padding-top: 3px;
+    padding-left: 8px;   
+}
+#title2{
+    font-size: 18px;
+    color:purple;
+    white-space: nowrap;
+    margin-left: -80px;
+    font-weight:lighter;   
+}
+#card-content2{
+    font-size: 17px;
+    white-space: nowrap;
+    padding-left: 20px;
+    margin-left: -130px;
+}
+.circle3{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid blueviolet;
+    margin-left:130px;
+    margin-top: 30px;   
+}
+#num3{
+    padding-top: 3px;
+    padding-left: 8px;   
+}
+#title3{
+    font-size: 18px;
+    color:purple;
+    white-space: nowrap;
+    margin-left: -80px;
+    font-weight:lighter;  
+}
+#card-content3{
+    font-size: 17px;
+    white-space: nowrap;
+    padding-left: 20px;
+    margin-left: -130px;
+}
+.lower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.lower-content{
+    width: 500px;
+    height:250px;
+    background: rgb(62, 6, 62) ;
+    margin-bottom: -160px;
+    margin-left: -40px;
+}
+#lower-title{
+    color: white;
+    font-family: century Gothic;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+#lower-context{
+    color: white;
+    font-family: century Gothic;
+    /* text-align: center; */
+    font-size: 15px;
+    padding-left: 20px;
+}
+#btn-apply{
+    width: 120px;
+    height: 40px;
+    background: rgb(56, 237, 155);
+    border: none;
+    color: rgb(62, 6, 62);
+    font-family: century Gothic;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+.image-holder img{
+    float: right;
+    margin-top: -100px;
+}
+#end{
+    color: black;
+    align-items: center;
+    font-size: 30px;
+}
+#orgii{
+font-size: 30px;
+font-family: monospace;
+}
+#picture{
+    border: none;
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+}
+
